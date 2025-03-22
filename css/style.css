@@ -232,15 +232,18 @@ section {
   height: 60rem;
   background-size: cover !important;
   background-position: center !important;
+  
 }
 .home .swiper-slide .content {
   width: 50rem;
+  padding: 3rem;
+  background-color: #44444499;
 }
 .home .swiper-slide .content h3 {
   font-size: 5rem;
   text-transform: capitalize;
   color: black;
-  color: #fff;
+  color: #ffffff;
 }
 .home .swiper-slide .content p {
   font-size: 1.6rem;
