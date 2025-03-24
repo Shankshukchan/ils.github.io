@@ -252,7 +252,7 @@ section {
   color: #eee;
   padding: 3rem 0;
 }
-
+.share{color:white}
 .subjects .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
