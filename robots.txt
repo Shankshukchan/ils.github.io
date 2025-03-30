@@ -1,0 +1,13 @@
+
+User-agent: *
+Disallow: 
+Disallow: \ils\ils\js
+Disallow: \ils\ils\images
+Disallow: \ils\ils\css
+Disallow: \ils\ils\.git
+Disallow: \ils\ils\404.html
+Disallow: \ils\ils\doc
+allow: \ils\ils\index.html
+allow: \ils\ils\contact.html
+allow: \ils\ils\courses.html
+allow: \ils\ils\about.html
