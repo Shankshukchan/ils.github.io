@@ -6,7 +6,5 @@ Disallow: /ils/ils/css
 Disallow: /ils/ils/.git
 Disallow: /ils/ils/404.html
 Disallow: /ils/ils/doc
-Disallow: /ils/ils/index.html
-Disallow: /ils/ils/contact.html
-Disallow: /ils/ils/courses.html
+
 
