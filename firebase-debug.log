@@ -1,0 +1,31 @@
+[debug] [2025-04-01T08:08:30.693Z] ----------------------------------------------------------------------
+[debug] [2025-04-01T08:08:30.696Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-04-01T08:08:30.696Z] CLI Version:   14.0.1
+[debug] [2025-04-01T08:08:30.696Z] Platform:      win32
+[debug] [2025-04-01T08:08:30.696Z] Node Version:  v20.12.1
+[debug] [2025-04-01T08:08:30.697Z] Time:          Tue Apr 01 2025 13:38:30 GMT+0530 (India Standard Time)
+[debug] [2025-04-01T08:08:30.697Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-01T08:08:30.938Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-01T08:08:30.938Z] > authorizing via signed-in user (shankarspshukla@gmail.com)
+[debug] [2025-04-01T08:08:30.938Z] [iam] checking project institute-of-life-science for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-04-01T08:08:30.940Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:30.940Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:30.941Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/institute-of-life-science:testIamPermissions [none]
+[debug] [2025-04-01T08:08:30.941Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/institute-of-life-science:testIamPermissions x-goog-quota-user=projects/institute-of-life-science
+[debug] [2025-04-01T08:08:30.942Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/institute-of-life-science:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-01T08:08:32.164Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/institute-of-life-science:testIamPermissions 200
+[debug] [2025-04-01T08:08:32.164Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/institute-of-life-science:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-01T08:08:32.165Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:32.165Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:32.166Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/institute-of-life-science [none]
+[debug] [2025-04-01T08:08:33.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/institute-of-life-science 200
+[debug] [2025-04-01T08:08:33.119Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/institute-of-life-science {"projectId":"institute-of-life-science","projectNumber":"870543306434","displayName":"Institute of life science","name":"projects/institute-of-life-science","resources":{"hostingSite":"institute-of-life-science"},"state":"ACTIVE","etag":"1_6a76ca37-da5c-4046-9506-24346432676f"}
+[info] 
+[info] === Deploying to 'institute-of-life-science'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-04-01T08:08:33.135Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:33.135Z] Checked if tokens are valid: true, expires at: 1743496110718
+[debug] [2025-04-01T08:08:33.136Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/institute-of-life-science/versions [none]
+[debug] [2025-04-01T08:08:33.136Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/institute-of-life-science/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
