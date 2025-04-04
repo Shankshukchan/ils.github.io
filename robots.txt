@@ -1,10 +1,10 @@
 
 User-agent: *
-Disallow: ./js
-Disallow: ./images
-Disallow: ./css
-Disallow: ./.git
-Disallow: ./404.html
-Disallow: ./doc
+Disallow: \js
+Disallow: \images
+Disallow: \css
+Disallow: \.git
+Disallow: \404.html
+Disallow: \doc
 Sitemap: https://www.instituteoflifescience.in/sitemap.xml
 
